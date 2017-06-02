@@ -1,4 +1,4 @@
-% main2.m Ö÷º¯Êı
+% main2.m ä¸»ç¨‹åº2
 clear,clc;
 dy=@(x,y)y^2+1;
 xa=0;
