@@ -1,4 +1,4 @@
-% RK4 4½×Áú¸ñ¿âËþ
+% RK4 4é˜¶é¾™æ ¼åº“å¡”
 function y=RK4(dy,xa,xb,y0,h)
 x=xa:h:xb;
 y(1)=y0;
