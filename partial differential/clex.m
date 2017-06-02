@@ -1,3 +1,4 @@
+% 古典显格式
 function ui=clex(a,f,u,h,t,xbound,tbound)
 N=xbound/h;
 r1=a*t/(h^2);
