@@ -1,4 +1,4 @@
-% Euler.m Å·À­·¨
+% Euler.m æ¬§æ‹‰æ³•
 function y=Euler(dy,xa,xb,y0,h)
 x=xa:h:xb;
 y(1)=y0;
