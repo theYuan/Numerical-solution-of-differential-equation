@@ -1,4 +1,4 @@
-% main1.m Ö÷º¯Êı
+% main1.m ä¸»ç¨‹åº1
 clear,clc;
 dy=@(x,y)x-y+1;
 xa=0;
