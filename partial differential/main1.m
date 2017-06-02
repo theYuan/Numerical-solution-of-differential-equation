@@ -1,3 +1,4 @@
+% 主程序
 clear,clc;
 a=4/pi/pi;
 f=@(x)x-x;
