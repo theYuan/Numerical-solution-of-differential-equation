@@ -1,3 +1,4 @@
+% 六点对称法
 function ui=crni(a,f,u,h,t,xbound,tbound)
 N=xbound/h;
 r1=a*t/2/(h^2);
