@@ -1,3 +1,4 @@
+% 古典隐格式
 function ui=clim(a,f,u,h,t,xbound,tbound)
 N=xbound/h;
 r1=a*t/(h^2);
