@@ -1,20 +1,21 @@
+% ç”¨pdepeæ±‚ç²¾ç¡®è§£
 t=0:0.25:0.5;
 x=0:0.1:1;
 m=0;
 sol=pdepe(m,@pdefun,@pdeic,@pdebc,x,t);
 ua = sol(:,:,1)';
 
-function[c,f,s]=pdefun(x,t,u,DuDx)  %½¨Á¢Æ«Î¢·Ö·½³Ìº¯Êı
+function[c,f,s]=pdefun(x,t,u,DuDx)  %å»ºç«‹åå¾®åˆ†æ–¹ç¨‹å‡½æ•°
     c=1;
     f=DuDx;
     s=0;
 end
 
-function[u0]=pdeic(x)   %½¨Á¢Æ«Î¢·Ö·½³ÌµÄ³õÊ¼Ìõ¼şº¯Êı
+function[u0]=pdeic(x)   %å»ºç«‹åå¾®åˆ†æ–¹ç¨‹çš„åˆå§‹æ¡ä»¶å‡½æ•°
     u0=sin(pi*x);
 end
 
-function[pl,ql,pr,qr]=pdebc(xl,ul,xr,ur,t)   %½¨Á¢Æ«Î¢·Ö·½³ÌµÄ±ß½çÌõ¼şº¯Êı
+function[pl,ql,pr,qr]=pdebc(xl,ul,xr,ur,t)   %å»ºç«‹åå¾®åˆ†æ–¹ç¨‹çš„è¾¹ç•Œæ¡ä»¶å‡½æ•°
     pl = ul;
     ql = 0;
     pr = ur;
